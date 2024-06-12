@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.whatsH1 {
+    @apply items-center text-center text-xl font-extrabold text-orangeMedium pb-2 uppercase;
+}
+
+.whatsP {
+    @apply font-bold mb-5 text-center;
+}
+
+.linkMenu {
+    @apply font-bold my-4 py-4 border-b border-orangeLight text-orangeLight hover:text-orangeLight hover:bg-orangeDark rounded-lg transition-all duration-300
+}
+
+.iconWhats {
+    @apply text-[50px] flex justify-center text-orangeMedium animate-bounce pt-10;
+}
+
+.textH1 {
+    @apply text-black lg:text-[70px] text-center font-black drop-shadow-dropShadowWhite;
+}
+
+.textH1white {
+    @apply text-white lg:text-[70px] text-center font-black;
+}
+
+.aboutP {
+    @apply flex flex-col justify-center text-center font-bold text-2xl rounded-3xl text-black drop-shadow-dropShadowWhite lg:max-w-lg p-5;
+}
+
+.aboutButton {
+    @apply flex justify-center items-center border-2 px-4 py-1 rounded-xl mt-8 bg-blueMedium text-white shadow-lg uppercase font-bold text-nowrap hover:bg-orangeLight hover:text-orangeDark hover:border-orangeDark;
+}
